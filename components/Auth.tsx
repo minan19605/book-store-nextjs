@@ -26,7 +26,7 @@ const Auth: React.FC<AuthProps> = ({onClose}) => {
     setPwd('')
   }
 
-  // const handleGoogleLogin = async () => {
+  //   const handleGoogleLogin = async () => {
   //   const result: OperationResult = await GoogleLogin();
 
   //   if(result.success) {
