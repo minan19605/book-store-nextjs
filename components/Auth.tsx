@@ -40,7 +40,7 @@ const Auth: React.FC<AuthProps> = ({onClose}) => {
   //   }
   // }
 
-  const handleGoogleLogin = async () => {
+    const handleGoogleLogin = async () => {
     try {
         const user: User = await GoogleLogin();
         
